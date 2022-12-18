@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { ContadorComponent } from './contador/contador.component';
 import { HeroeComponent } from './heroes/heroe/heroe.component';
+import { ListadoComponent } from './heroes/listado/listado.component';
 
 
 
@@ -11,7 +12,8 @@ import { HeroeComponent } from './heroes/heroe/heroe.component';
   declarations: [
     AppComponent,
     ContadorComponent,
-    HeroeComponent
+    HeroeComponent,
+    ListadoComponent
   ],
   imports: [
     BrowserModule

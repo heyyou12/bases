@@ -7,10 +7,10 @@ import { Component } from '@angular/core';
 export class ListadoComponent {
 
   heroes: string[]= ['Superman','Spiderman','Ironman','Thor','Goku','Hulk','Vegeta'];
+  heroeBorrado: string|undefined = "";
 
   eliminarHeroe(){
-    this.heroes.splice(1,1)
-    console.log('Elimando...')
+    this.heroeBorrado = this.heroes.shift(); 
   } 
   
 }

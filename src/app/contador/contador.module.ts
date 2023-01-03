@@ -3,13 +3,15 @@ import { ContadorComponent } from './contador/contador.component';
 
 
 @NgModule({
-    declarations: [
-        ContadorComponent
+    declarations:[
+       ContadorComponent 
     ],
-    exports: [
-        ContadorComponent
+    exports:[
+        ContadorComponent   
     ]
 })
-export class ContadorModule {
+export class ContadorModule{
 
 }
+
+

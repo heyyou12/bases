@@ -9,11 +9,7 @@ import { Personaje } from '../interfaces/dbz.interface';
 })
 export class MainPageComponent {
 
-   nuevo: Personaje = {
-    nombre: '',
-    poder: 0
-  }
-
+ 
   personajes: Personaje [] = [
     {
       nombre: 'Goku',
@@ -25,6 +21,10 @@ export class MainPageComponent {
     }
   ];
 
+  nuevo: Personaje = {
+    nombre: 'Maestro Rochi',
+    poder:2500
+  }
   cambiarNombre(event:any){
     console.log(event.target.value);
   }
